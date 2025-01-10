@@ -463,3 +463,47 @@ td {
   width: 1032px;
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
+
+/* newsletter section */
+.newsletter-section {
+  padding: 80px 0;
+  margin-bottom: 80px;
+
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+
+.newsletter-section header {
+  max-width: 750px;
+}
+
+.newsletter-section form {
+  display: flex;
+  width: 750px;
+}
+
+.newsletter-section form input {
+  border: none;
+  border-radius: 8px 0 0 8px;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 18px 40px;
+  flex: 1;
+}
+
+.newsletter-section form button {
+  border-radius: 0 8px 8px 0;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.newsletter-section .promise {
+  line-height: auto;
+}

@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -93,10 +97,21 @@ ul li {
 }
 
 /* common styles */
+.section {
+  margin-bottom: 80px;
+}
 .section-heading {
 }
 
 .section-description {
+}
+
+.dark-green-bg-btn {
+  padding: 17px 34px;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  background-color: #006a50;
 }
 
 .body {
@@ -125,4 +140,31 @@ nav .navbar-list {
   padding: 15px 30px;
   border-radius: 8px;
   border: 1px solid #006a50;
+}
+
+/* banner section */
+.banner-section {
+  margin-top: 22px;
+  border-radius: 24px;
+  padding: 80px 60px;
+  background-color: #c6e4d6;
+  display: flex;
+  gap: 64px;
+  justify-content: space-between;
+}
+
+.banner-section .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: start;
+}
+
+.banner-section .bangladesh-text {
+  font-size: 24px;
+}
+
+.banner-section .main-text {
+  font-size: 56px;
 }

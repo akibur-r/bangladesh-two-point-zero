@@ -124,6 +124,10 @@ ul li {
   background-color: #006a50;
 }
 
+.dark-green-bg-btn:hover {
+  background-color: #234c42;
+}
+
 .big-container {
   padding: 0 160px;
   background-color: #f5f5f5;
@@ -151,6 +155,11 @@ nav .navbar-list {
   padding: 15px 30px;
   border-radius: 8px;
   border: 1px solid #006a50;
+}
+
+.sign-in-btn:hover {
+  color: #ffffff;
+  background-color: #006a50;
 }
 
 /* banner section */
@@ -255,6 +264,10 @@ nav .navbar-list {
   color: white;
 }
 
+.vision-section .vision-container .vision .btn:hover {
+  background-color: #006a50;
+}
+
 .vision-section .vision-container .blue-vision .btn {
   background-color: #5490f5;
 }
@@ -340,6 +353,12 @@ td {
   color: #0e0e0e;
   border: 1px solid #0e0e0e;
   border-radius: 4px;
+
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
 }
 
 /* recent news section */
@@ -412,6 +431,11 @@ td {
   border-radius: 8px;
 }
 
+.news-section .news-container .news .text-container .btn:hover {
+  background-color: #00aa80;
+  color: #0e0e0e;
+}
+
 .donate-section {
   display: flex;
   flex-direction: column;
@@ -444,6 +468,10 @@ td {
   border: 1px solid rgba(14, 14, 14, 0.15);
   color: rgba(14, 14, 14, 0.8);
   cursor: pointer;
+}
+
+.donate-section .amount-container .amount:hover {
+  background-color: #90c1aa;
 }
 
 .donate-section .amount-container .colored-amount {
@@ -528,4 +556,10 @@ footer .footer-heading {
 footer .social-container {
   display: flex;
   gap: 23px;
+}
+
+.pillar-section .pillar-container .pillar:hover,
+.vision-section .vision-container .vision:hover,
+.news-section .news-container .news:hover {
+  background-color: #eaeaf0;
 }

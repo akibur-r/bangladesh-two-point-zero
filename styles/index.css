@@ -415,3 +415,51 @@ td {
   padding: 13px 26px;
   border-radius: 8px;
 }
+
+.donate-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+
+.donate-section header {
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-section .description {
+  padding: 0 88px;
+}
+
+.donate-section .amount-container {
+  display: flex;
+  gap: 24px;
+}
+
+.donate-section .amount-container .amount {
+  padding: 40px;
+  background-color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  color: rgba(14, 14, 14, 0.8);
+  cursor: pointer;
+}
+
+.donate-section .amount-container .colored-amount {
+  background-color: #c6e4d6;
+}
+
+.donate-section input {
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #ffffff;
+  text-align: center;
+  width: 1032px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}

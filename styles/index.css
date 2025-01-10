@@ -217,6 +217,8 @@ nav .navbar-list {
   border-radius: 16px;
   height: 293px;
 
+  flex: 1;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -298,4 +300,48 @@ nav .navbar-list {
 .vision-section .quote-container .quote-author .quote-author-designation {
   color: rgba(14, 14, 14, 0.6);
   font-size: 16px;
+}
+.opinion-section .table-container {
+  padding: 32px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.opinion-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.opinion-section table th,
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+  font-weight: 600;
+}
+
+.opinion-section table th {
+  background-color: #c6e4d6;
+}
+
+.opinion-section table th .table-heading {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.opinion-section table td {
+  font-size: 16px;
+}
+
+.opinion-section table .right-cell {
+  text-align: center;
+}
+
+.opinion-section table .right-cell .table-option {
+  padding: 10px 16.5px;
+  text-align: center;
+  background-color: #c6e4d6;
+  color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  border-radius: 4px;
 }

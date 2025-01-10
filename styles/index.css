@@ -290,6 +290,12 @@ nav .navbar-list {
   gap: 12px;
 }
 
+.vision-section .quote-container .quote-bg {
+  position: absolute;
+  margin: -23px 0 0 0;
+  opacity: 0.6;
+}
+
 .vision-section .quote-container .quote-text {
   color: rgba(14, 14, 14, 0.8);
 }
